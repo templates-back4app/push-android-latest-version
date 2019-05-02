@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Back4App Android 9</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">lOnJ1j6c5OHzz7RFmlXATbEqGvKA3BuT9KXGyWdO</string>
+    <string name="back4app_client_key">fYMc6jNRWTjqBDUJKMn0Tex5x4OBwLT0F9sgObbj</string>
+    <color name="Black">#000000</color>
+</resources>
