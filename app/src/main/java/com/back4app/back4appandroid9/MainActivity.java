@@ -2,6 +2,7 @@ package com.back4app.back4appandroid9;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -62,6 +63,18 @@ public class MainActivity extends AppCompatActivity {
                 listView.setAdapter(adapterList);
             }
         });
+
+        final Button open_login = findViewById(R.id.btnOpenScreen);
+
+        open_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoginScreen.class);
+                startActivity(intent);
+
+            }
+        });
+
 
     }
 }

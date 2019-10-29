@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.parse-community.Parse-SDK-Android:fcm:1.20.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64d51a464f1628ad1b6103bf82ed97aa/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/64d51a464f1628ad1b6103bf82ed97aa/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbf372c49abee7a4c2ce34abe1c60fe5/fcm-1.20.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cbf372c49abee7a4c2ce34abe1c60fe5/fcm-1.20.0/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.parse-community.Parse-SDK-Android/fcm/1.20.0/482b9069316146887ccc3bfb33802f7d5a97426d/fcm-1.20.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.parse-community.Parse-SDK-Android/fcm/1.20.0/def31380a9316d198df3c4750e057013fa2309e2/fcm-1.20.0-sources.jar!/" />
     </SOURCES>
