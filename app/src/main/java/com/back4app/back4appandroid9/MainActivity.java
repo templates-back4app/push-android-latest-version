@@ -3,6 +3,7 @@ package com.back4app.back4appandroid9;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -14,8 +15,15 @@ import com.parse.GetCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
-
+import com.parse.FunctionCallback;
+import com.parse.ParseCloud;
+import java.util.HashMap;
 import java.util.ArrayList;
+import com.parse.ParseAnalytics;
+
+import java.lang.reflect.Array;
+import java.util.Map;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
         final Button retrieve_data = findViewById(R.id.btnRetrieveData);
 
@@ -34,23 +43,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 myArray = new String[]{};
                 final ListView listView = (ListView) findViewById(R.id.listviewA);
+                HashMap<String, String> params = new HashMap();
+                ParseCloud.callFunctionInBackground("listAllUserEmails", params, new FunctionCallback<ArrayList>() {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("Cars");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> results, ParseException e) {
+                    @Override
+                    public void done(ArrayList object, ParseException e) {
                         if (e == null) {
-                            for(int i = 0; i < results.size(); i++) {
-                                String carName = results.get(i).getString("name");
-                                dataList.add(carName.toString());
-                            }
-                        } else {
-                            // results have all the Posts the current user liked.
-                            final Toast toast = Toast.makeText(
-                                    MainActivity.this,
-                                    String.valueOf("Error =>" + e.getMessage()),
-                                    Toast.LENGTH_LONG
-                            );
-                            toast.show();
+                            // ratings is 4.5
+                            Log.d("It's working! :)", object.toString());
                         }
                     }
                 });
