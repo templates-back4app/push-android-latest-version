@@ -32,7 +32,7 @@
             android:name="com.parse.push.gcm_sender_id"
             android:value="1069568716159"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,7 +41,7 @@
         </activity>
 
         <service
-            android:name="com.parse.fcm.ParseFirebaseMessagingService">
+            android:name="com.parse.fcm.ParseFirebaseMessagingService" android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.parse-community.Parse-SDK-Android:parse:3.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6d949b11d0ed74b3afdaeea702fb3925/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4d31e8faf7d7662d86a8e003c21db634/transformed/jetified-parse-3.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d31e8faf7d7662d86a8e003c21db634/transformed/jetified-parse-3.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d31e8faf7d7662d86a8e003c21db634/transformed/jetified-parse-3.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.parse-community.Parse-SDK-Android/parse/3.0.1/1c64572b121786fb1100e8ee588a3079aa9b9374/parse-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

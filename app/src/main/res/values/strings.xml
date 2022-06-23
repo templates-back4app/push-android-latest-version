@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Back4App Android 9</string>
+    <string name="app_name">Back4App Android Push App</string>
 
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
 

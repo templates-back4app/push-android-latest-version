@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
         final Button retrieve_data = findViewById(R.id.btnRetrieveData);
 
@@ -43,14 +42,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 myArray = new String[]{};
                 final ListView listView = (ListView) findViewById(R.id.listviewA);
-                HashMap<String, String> params = new HashMap();
-                ParseCloud.callFunctionInBackground("listAllUserEmails", params, new FunctionCallback<ArrayList>() {
 
-                    @Override
-                    public void done(ArrayList object, ParseException e) {
+                ParseQuery<ParseObject> query = ParseQuery.getQuery("Cars");
+                query.findInBackground(new FindCallback<ParseObject>() {
+                    public void done(List<ParseObject> results, ParseException e) {
                         if (e == null) {
-                            // ratings is 4.5
-                            Log.d("It's working! :)", object.toString());
+                            for(int i = 0; i < results.size(); i++) {
+                                String carName = results.get(i).getString("name");
+                                dataList.add(carName.toString());
+                            }
+                        } else {
+                            // results have all the Posts the current user liked.
+                            final Toast toast = Toast.makeText(
+                                    MainActivity.this,
+                                    String.valueOf("Error =>" + e.getMessage()),
+                                    Toast.LENGTH_LONG
+                            );
+                            toast.show();
                         }
                     }
                 });
