@@ -27,10 +27,10 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.5.0-alpha04'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0-alpha07'
 
-    implementation "com.github.parse-community.Parse-SDK-Android:parse:3.0.1"
-    implementation "com.github.parse-community.Parse-SDK-Android:fcm:3.0.1"
-    implementation "com.google.firebase:firebase-core:21.0.0"
-    implementation "com.google.firebase:firebase-messaging:23.0.6"
+    implementation "com.github.parse-community.Parse-SDK-Android:parse:4.0.0"
+    implementation "com.github.parse-community.Parse-SDK-Android:fcm:4.0.0"
+    implementation "com.google.firebase:firebase-core:21.1.0"
+    implementation "com.google.firebase:firebase-messaging:23.0.7"
 }
 
 repositories {

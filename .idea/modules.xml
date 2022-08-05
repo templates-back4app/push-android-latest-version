@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/push-android-latest-version-master.iml" filepath="$PROJECT_DIR$/.idea/modules/push-android-latest-version-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version-master.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/push-android-latest-version.iml" filepath="$PROJECT_DIR$/.idea/modules/push-android-latest-version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.unitTest.iml" />
     </modules>
   </component>
 </project>
