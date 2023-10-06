@@ -1,13 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.parse-community.Parse-SDK-Android:fcm:4.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2a806b194ca6ed92e8a65dbeee4d01a1/transformed/jetified-fcm-4.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a806b194ca6ed92e8a65dbeee4d01a1/transformed/jetified-fcm-4.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a806b194ca6ed92e8a65dbeee4d01a1/transformed/jetified-fcm-4.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0051b761ec545a339c7b6365df8db9c/jetified-fcm-4.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0051b761ec545a339c7b6365df8db9c/jetified-fcm-4.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.parse-community.Parse-SDK-Android/fcm/4.0.0/6a59dd562f088ba6e6e538518ff757421d0543ef/fcm-4.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.parse-community.Parse-SDK-Android/fcm/4.0.0/e6b12eb60ba6aa7f3ac5f3677c29776b7d441b80/fcm-4.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
