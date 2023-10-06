@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/push-android-latest-version.iml" filepath="$PROJECT_DIR$/.idea/modules/push-android-latest-version.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/push-android-latest-version.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Back4AppExample.iml" filepath="$PROJECT_DIR$/.idea/modules/Back4AppExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Back4AppExample.app.unitTest.iml" />
     </modules>
   </component>
 </project>
