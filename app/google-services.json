@@ -1,14 +1,13 @@
 {
   "project_info": {
-    "project_number": "1069568716159",
-    "firebase_url": "https://pushapp-2e179.firebaseio.com",
-    "project_id": "pushapp-2e179",
-    "storage_bucket": "pushapp-2e179.appspot.com"
+    "project_number": "376713099583",
+    "project_id": "new-push-99cba",
+    "storage_bucket": "new-push-99cba.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1069568716159:android:4d973ce8611ae520",
+        "mobilesdk_app_id": "1:376713099583:android:3dd764a01f2c064e95fb8a",
         "android_client_info": {
           "package_name": "com.android.application"
         }
@@ -16,17 +15,12 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBGX8LhzwwWoqh3dcQvkszG_kpDA8HKJaU"
+          "current_key": "AIzaSyA8xAe4SHZYDgI5Nbd_OKwexgZdMB43CjQ"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oa1069568716159uth_client": [
-            {
-              "client_id": "1069568716159-q1079p4jiurgqi3jqcs7rfcrultuu6ns.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

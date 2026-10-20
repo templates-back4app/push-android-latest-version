@@ -3,9 +3,13 @@
 
 
     <string name="back4app_server_url" translatable="false">https://parseapi.back4app.com/</string>
-    <string name="back4app_app_id" translatable="false">lOnJ1j6c5OHzz7RFmlXATbEqGvKA3BuT9KXGyWdO</string>
-    <string name="back4app_client_key" translatable="false">fYMc6jNRWTjqBDUJKMn0Tex5x4OBwLT0F9sgObbj</string>
+    <string name="back4app_app_id" translatable="false">2nIXcWxD1SdJ4dVJoWNQwsH99p0IsXawcEJOgVlv</string>
+    <string name="back4app_client_key" translatable="false">Om6cFNeiZStXeudtxOaJlgNxlsQHJZ9Jagv2FQEy</string>
 
 
+
+
+    <string name="object_saved">Object saved. %1$s</string>
+    <string name="object_not_saved">Object not saved: %1$s</string>
 
 </resources>
